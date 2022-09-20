@@ -8,7 +8,6 @@ on:
         required: true
         default: 'master-latest'
       image_repo:
-        description: The image repo to use for the chaos test
         required: true
         default: 'milvusdb/milvus'        
   schedule:
